@@ -8,7 +8,7 @@ namespace Demo_Singleton
 
         #region Propriétés
         // Chaîne de connexion SQL Server.
-        private static readonly string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=testHash;Integrated Security=True;";
+        private static readonly string connectionString = "chaine de connexion";
 
         // Instance unique de la connexion SQL Server.
         private static SqlConnection connection;
