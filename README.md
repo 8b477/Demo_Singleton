@@ -14,21 +14,21 @@
 -----------------------------------------
 </br>
 
-# En une phrase c'est quoi ??
+# <a name= "expli"> En une phrase c'est quoi ??</a>
 </br>
-<a name= "expli">C'est une garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès global à cette instance **UNIQUE** dans tout notre programme.</a>
+C'est une garantit qu'une classe n'a qu'une seule instance et fournit un point d'accès global à cette instance **UNIQUE** dans tout notre programme.
 
 </br></br>
 
 -----------------------------------------
 </br>
 
-# Quand l'utilisé ??
+# <a name= "quand"> Quand l'utilisé ??</a>
 
 </br>
 
 - Pour une connexions de base de données.
-- <a name= "quand">Pour une gestion de fichiers de configuration.</a>
+- Pour une gestion de fichiers de configuration.
 
 </br></br>
 
@@ -36,7 +36,7 @@
 
 </br>
 
-# Implémentation de base :
+# <a name= "basic">Implémentation de base :</a>
 
 </br>
 
@@ -53,7 +53,7 @@
 </br>
 </br>
 </br>
--<a name= "basic"> Étape (2) :</a>
+- Étape (2) :
   
 ```C#
  public class Singleton
@@ -98,7 +98,7 @@ Créer la méthode GetInstance() en public static pour obtenir l'instance unique
 
 </br>
 
-# Implémentation de base pour une DB :
+# <a name= "db">Implémentation de base pour une DB :</a>
 *( Dans l'exemple j'utilise SQL Server mais rien ne vous empêche d'en utiliser d'autre )*
 </br>
 </br>
@@ -123,7 +123,7 @@ Création des propriétés.
 </br>
 </br>
   
--<a name= "db"> Étape (2) :</a> 
+- Étape (2) :
 
 
 ```C#
